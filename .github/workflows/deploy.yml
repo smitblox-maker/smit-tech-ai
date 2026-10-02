@@ -34,7 +34,7 @@ jobs:
 
       - name: Install dependencies
         working-directory: ./smit-tech-ai
-        run: npm install
+        run: npm install --legacy-peer-deps
 
       - name: Build website
         working-directory: ./smit-tech-ai
